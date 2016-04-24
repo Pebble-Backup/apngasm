@@ -1436,7 +1436,7 @@ namespace apngasm {
 
         op_min = _op[0].size;
         op_best = 0;
-        for (j=1; j<6; j++)
+        for (j=1; j<4; j++)
         if (_op[j].valid)
         {
           if (_op[j].size < op_min)
